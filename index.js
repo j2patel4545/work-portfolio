@@ -117,7 +117,7 @@ o.addEventListener("mouseenter", function() {
     // o.style.height = "100%";
     o.style.left = "0";
     o3.style.transition = "margin-top 3s"; // Apply transition effect to the margin-top property over 3 seconds
-    o3.style.marginTop = "-14vh";
+    o3.style.marginTop = "-1vh";
 
     // o.style.opacity = "1"
 });
@@ -161,7 +161,7 @@ o1.addEventListener("mouseenter", function() {
     console.log("done");
     // o.style.height = "100%";
     o1.style.left ="0";
-    o3.style.marginTop = "-14vh";
+    o3.style.marginTop = "-1vh";
 
     // o.style.opacity = "1"
 });
@@ -209,7 +209,7 @@ o2.addEventListener("mouseenter", function() {
     console.log("done");
     // o.style.height = "100%";
     o2.style.left ="0";
-    o3.style.marginTop = "-14vh";
+    o3.style.marginTop = "-1vh";
 
     // o.style.opacity = "1"
 });
