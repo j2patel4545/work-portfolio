@@ -19,6 +19,18 @@ var rt = document.querySelector(".rrt")
 
 var flag = 0;
 
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Simulate a delay for loading content
+    setTimeout(function() {
+        // Hide the loader
+        document.getElementById('loader').style.display = 'none';
+        // Show the content
+        document.getElementById('content').style.display = 'block';
+    }, 2000); // Change this value to simulate different loading times
+});
+
+
 var typed = document.querySelector(".typing")
 const
   cursorOuter = document.querySelector(".cursor--large"),
